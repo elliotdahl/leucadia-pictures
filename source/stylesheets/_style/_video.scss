@@ -1,7 +1,5 @@
-
-
 .video-bg-wrapper {
-    z-index: -1;
+    z-index: 0;
     //position:absolute;
     position: fixed;
     top: 0;
@@ -10,6 +8,11 @@
     height: auto;
     min-width: 100%;
     min-height: 100%;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
 }
 
 .video-bg {
@@ -18,8 +21,8 @@
     top: 0;
     left: 0;
     z-index: -1;
-    width: auto;
-    height: auto;
+    width: 100%;
+    //height: auto;
     min-width: 100%;
     min-height: 100%;
     background-color: #000;
